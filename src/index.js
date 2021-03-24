@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 class Square extends React.Component {
-  costructor(props){
+  constructor(props){
     super(props);
     this.state = {
       value: null,
