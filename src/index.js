@@ -22,7 +22,7 @@ function Square(props){
 
     handleClick(i){
       const squares = this.state.squares.slice();
-      if(calculatedWinner(squares) || squares[i]) {
+      if(calculateWinner(squares) || squares[i]) {
         return;
       }
       squares[i] = this.state.xIsNext ? 'X' : 'O';
